@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace FinancialTrader.Domain.Services
 {
-    internal interface IDataService
+    public interface IDataService<T>
     {
+        Task<IEnumerable<T>> GetAll();
+        Task<T> Get(int id);
+        Task<T> Create(T entity);
+        Task<T> Update(int id, T entity);
+        Task<bool> Delete(int id);
+
     }
 }
