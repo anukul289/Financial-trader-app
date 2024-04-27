@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinancialTrader.Domain", "F
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinancialTrader.EntityFramework", "FinancialTrader.EntityFramework\FinancialTrader.EntityFramework.csproj", "{C55BDE46-97E3-447B-9470-F8E73D49A4C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{8D45D50A-438E-4D54-864F-8C32E12087B2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinancialTrader.WPF", "FinancialTrader.WPF\FinancialTrader.WPF.csproj", "{D4312852-9312-4FC5-B8DA-397957AE4C4E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{C55BDE46-97E3-447B-9470-F8E73D49A4C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C55BDE46-97E3-447B-9470-F8E73D49A4C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C55BDE46-97E3-447B-9470-F8E73D49A4C5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8D45D50A-438E-4D54-864F-8C32E12087B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8D45D50A-438E-4D54-864F-8C32E12087B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8D45D50A-438E-4D54-864F-8C32E12087B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8D45D50A-438E-4D54-864F-8C32E12087B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4312852-9312-4FC5-B8DA-397957AE4C4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4312852-9312-4FC5-B8DA-397957AE4C4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4312852-9312-4FC5-B8DA-397957AE4C4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4312852-9312-4FC5-B8DA-397957AE4C4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
