@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FinancialTrader.Domain.Models
 {
-    public class Account
+    public class Account : DomainObject
     {
         public int Id { get; set; } 
         public User AccountHolder { get; set; }

@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FinancialTrader.EntityFramework.Migrations
 {
     [DbContext(typeof(FinancialTraderDbContext))]
-    [Migration("20240426125855_add-dates")]
-    partial class adddates
+    [Migration("20240427053316_initial")]
+    partial class initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

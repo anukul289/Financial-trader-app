@@ -11,20 +11,19 @@ namespace FinancialTrader.EntityFramework
 {
     public class FinancialTraderDbContext : DbContext
     {
+        
+
         public DbSet<User> Users { get; set; }
         public DbSet<Account> Accounts { get; set; }
         public DbSet<AssetTransaction> AssetTransactions { get; set; }
+        public FinancialTraderDbContext(DbContextOptions options) : base(options)
+        {
+        }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<AssetTransaction>().OwnsOne(a => a.Stock); 
             base.OnModelCreating(modelBuilder);
-        }
-
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            optionsBuilder.UseSqlServer("Server=(localDB)\\ProjectModels;Database=FinancialTraderDB;Trusted_Connection=True;");
-            base.OnConfiguring(optionsBuilder);
         }
     }
 }
